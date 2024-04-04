@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="@drawable/landingpagegradient"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +23,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -34,6 +38,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="48dp"
                         android:text="JeepneyXpress"
+                        android:textColor="@color/white"
                         android:textSize="30sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -45,6 +50,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8sp"
                         android:text="Jeepney navigation, at the touch of your fingertips"
+                        android:textColor="@color/white"
                         app:layout_constraintStart_toStartOf="@+id/Title1"
                         app:layout_constraintTop_toBottomOf="@+id/Title1"
                         tools:ignore="HardcodedText" />
@@ -53,6 +59,7 @@
             </LinearLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -62,9 +69,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="48dp"
                     android:backgroundTint="@color/white"
+                    android:text="Tap to continue"
                     android:textColor="@color/black"
                     android:textSize="24sp"
-                    android:text="Tap to continue"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
