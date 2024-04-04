@@ -12,12 +12,12 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="400px"
                 android:orientation="horizontal">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -29,7 +29,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="JeepneyXpress"
-                        app:layout_constraintEnd_toEndOf="parent"
+                        android:textSize="30sp"
+                        android:layout_margin="48dp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,12 +38,19 @@
                         android:id="@+id/Title1Subtext"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="8sp"
                         android:text="Jeepney navigation, at the touch of your fingertips"
-                        app:layout_constraintTop_toBottomOf="title1"
-                        app:layout_constraintStart_toStartOf="title1"
-                        />
+                        app:layout_constraintStart_toStartOf="@+id/Title1"
+                        app:layout_constraintTop_toBottomOf="@+id/Title1" />
+
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
         </LinearLayout>
     </ScrollView>
 
