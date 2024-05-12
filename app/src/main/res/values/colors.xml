@@ -3,5 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="timberwolf">#D5D5D5</color>
-    <color name="gray">#9B9B9B</color>\
+    <color name="gray">#9B9B9B</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent50percent">#80000000</color>
+    <color name="purple">#543B81</color>
+    <color name="lightpurple">#8142E2</color>
+    <color name="coolblack">#1C1C1C</color>
 </resources>

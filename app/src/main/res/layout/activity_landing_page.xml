@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/landingpagegradient"
+        android:background="@color/white"
         >
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -34,6 +34,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:maxHeight="240dp"
+                    android:adjustViewBounds="true"
                     app:srcCompat="@drawable/jeepneylogosample" />
             </LinearLayout>
 
@@ -52,6 +55,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:textColor="@color/purple"
                     android:text="JeepneyXpress"
                     android:textSize="32dp" />
             </LinearLayout>
@@ -71,6 +75,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:textColor="@color/purple"
                     android:text="Commuting made easier"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -93,7 +98,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Login"
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:backgroundTint="@color/lightpurple"
+                    />
             </LinearLayout>
 
             <LinearLayout
@@ -114,12 +121,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Register"
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:backgroundTint="@color/lightpurple"
+                    />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:orientation="horizontal"
                 app:layout_constraintBottom_toBottomOf="parent">
 
@@ -129,6 +139,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:textColor="@color/transparent50percent"
                     android:text="Made by Mothlabs" />
             </LinearLayout>
 
