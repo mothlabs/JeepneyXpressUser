@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">JeepneyXpressUser</string>
+    <string name="landingpageTitle">JeepneyXpress</string>
+    <string name="landingpageSubText">Commuting made easier</string>
 </resources>
