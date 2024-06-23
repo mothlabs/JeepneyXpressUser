@@ -2,4 +2,5 @@
     <string name="app_name">JeepneyXpressUser</string>
     <string name="landingpageTitle">JeepneyXpress</string>
     <string name="landingpageSubText">Commuting made easier</string>
+    <string name="made_by_mothlabs">Made by Mothlabs</string>
 </resources>
