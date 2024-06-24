@@ -10,9 +10,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:background="@color/lightpurple"
-        >
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -162,8 +165,8 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/made_by_mothlabs"
-                    android:textSize="18sp"
-                    android:textColor="@color/transparent50percent" />
+                    android:textColor="@color/transparent50percent"
+                    android:textSize="18sp" />
             </LinearLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
