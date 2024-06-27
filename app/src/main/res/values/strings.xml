@@ -5,4 +5,5 @@
     <string name="made_by_mothlabs">Made by Mothlabs</string>
     <string name="email_text">Email</string>
     <string name="password_text">Password</string>
+    <string name="text_loginpage_forgot_password">Forgot Password?</string>
 </resources>
