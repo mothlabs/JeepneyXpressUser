@@ -7,6 +7,7 @@
     <color name="transparent">#00000000</color>
     <color name="transparent50percent">#80000000</color>
     <color name="purple">#543B81</color>
-    <color name="lightpurple">#8142E2</color>
+    <color name="lightpurple">#9154DF</color>
+    <color name="textlightpurple">#9557E0</color>
     <color name="coolblack">#1C1C1C</color>
 </resources>
