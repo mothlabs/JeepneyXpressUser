@@ -2,10 +2,12 @@
     <string name="app_name">JeepneyXpressUser</string>
     <string name="landingpageTitle">JeepneyXpress</string>
     <string name="landingpageSubText">Commuting made easier</string>
-    <string name="made_by_mothlabs">Made by Mothlabs</string>
+    <string name="made_by_mothlabs">Made by MothLabs Inc.</string>
     <string name="email_text">Email</string>
     <string name="password_text">Password</string>
     <string name="login_text">Login</string>
     <string name="login">Login</string>
     <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="landingregister">Register</string>
 </resources>
