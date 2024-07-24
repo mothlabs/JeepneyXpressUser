@@ -87,7 +87,7 @@
                     android:id="@+id/linearLayout9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="72dp"
+                    android:layout_marginTop="48dp"
                     android:orientation="horizontal"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -98,13 +98,13 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:gravity="center"
                         android:background="@drawable/backgroundbutton"
                         android:ems="12"
-                        android:textSize="20sp"
+                        android:gravity="center"
                         android:hint="@string/email_text"
                         android:inputType="text"
                         android:padding="6dp"
+                        android:textSize="20sp"
                         tools:ignore="TouchTargetSizeCheck" />
                 </LinearLayout>
 
