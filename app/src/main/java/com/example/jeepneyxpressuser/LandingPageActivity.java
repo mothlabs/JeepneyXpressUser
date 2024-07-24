@@ -12,8 +12,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class LandingPageActivity extends AppCompatActivity {
-    final Button loginButton = (Button) findViewById(R.id.loginButton);
-    final Button registerButton = (Button) findViewById(R.id.registerButton);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,12 +23,14 @@ public class LandingPageActivity extends AppCompatActivity {
             return insets;
         });
 
+        final Button loginButton = (Button) findViewById(R.id.loginButton);
         loginButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Intent intent = new Intent(v.getContext(), LoginPageActivity.class);
                 v.getContext().startActivity(intent);
             }
         });
+        final Button registerButton = (Button) findViewById(R.id.registerButton);
         registerButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Intent intent = new Intent(v.getContext(), SetupAccountActivity.class);
