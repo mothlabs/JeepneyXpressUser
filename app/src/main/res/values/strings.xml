@@ -10,4 +10,5 @@
     <string name="forgot_password">Forgot password?</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
     <string name="landingregister">Register</string>
+    <string name="setup_account_name">Name</string>
 </resources>

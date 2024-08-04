@@ -34,7 +34,7 @@
                 <LinearLayout
                     android:id="@+id/linearLayout7"
                     android:layout_width="match_parent"
-                    android:layout_height="800dp"
+                    android:layout_height="750dp"
                     android:background="@drawable/backgroundshape"
                     android:orientation="vertical"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +58,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:adjustViewBounds="true"
-                        android:maxHeight="240dp"
+                        android:maxHeight="200dp"
                         android:scaleType="fitCenter"
                         app:srcCompat="@drawable/jeepneylogosample" />
                 </LinearLayout>
@@ -171,7 +171,7 @@
                         android:layout_weight="1"
                         android:backgroundTint="@color/textlightpurple"
                         android:text="@string/login"
-                        android:textSize="24sp" />
+                        android:textSize="20sp" />
                 </LinearLayout>
 
                 <LinearLayout

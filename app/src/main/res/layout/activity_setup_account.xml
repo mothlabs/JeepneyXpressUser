@@ -27,6 +27,7 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
+                    android:id="@+id/linearLayout21"
                     android:layout_width="match_parent"
                     android:layout_height="750dp"
                     android:background="@drawable/backgroundshape"
@@ -54,7 +55,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:adjustViewBounds="true"
-                        android:maxHeight="240dp"
+                        android:contentDescription="TODO"
+                        android:maxHeight="200dp"
                         android:scaleType="fitCenter"
                         app:srcCompat="@drawable/jeepneylogosample" />
                 </LinearLayout>
@@ -81,8 +83,9 @@
 
                 <LinearLayout
                     android:id="@+id/linearLayout17"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
                     android:orientation="horizontal"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -93,15 +96,21 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:ems="10"
+                        android:background="@drawable/backgroundbutton"
+                        android:ems="12"
+                        android:gravity="center"
+                        android:hint="@string/setup_account_name"
                         android:inputType="text"
-                        android:text="Name" />
+                        android:padding="6dp"
+                        android:textSize="20sp"
+                        tools:ignore="TouchTargetSizeCheck">
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/linearLayout18"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="0dp"
+                    android:layout_marginTop="12dp"
                     android:orientation="horizontal"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -109,41 +118,100 @@
 
                     <EditText
                         android:id="@+id/editTextText3"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:ems="10"
+                        android:ems="12"
+                        android:gravity="center"
                         android:inputType="text"
-                        android:text="Name" />
+                        android:hint="Email"
+                        android:padding="6dp"
+                        android:textSize="20sp"
+                        android:background="@drawable/backgroundbutton"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:id="@+id/linearLayout19"
+                    android:layout_width="wrap_content"
                     android:layout_height="0dp"
+                    android:layout_marginTop="12dp"
                     android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/linearLayout18">
 
                     <EditText
                         android:id="@+id/editTextTextPassword2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:ems="10"
-                        android:inputType="textPassword" />
+                        android:ems="12"
+                        android:background="@drawable/backgroundbutton"
+                        android:padding="6dp"
+                        android:textSize="20sp"
+                        android:inputType="textPassword"
+                        android:hint="Password"
+                        android:gravity="center"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:id="@+id/linearLayout20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout19">
 
                     <EditText
                         android:id="@+id/editTextTextPassword3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:ems="10"
+                        android:background="@drawable/backgroundbutton"
+                        android:ems="12"
+                        android:gravity="center"
+                        android:padding="6dp"
+                        android:textSize="20sp"
+                        android:hint="Confirm Password"
                         android:inputType="textPassword" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout22"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout20">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout22">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
                 </LinearLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
