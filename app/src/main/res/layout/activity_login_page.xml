@@ -189,6 +189,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="@string/don_t_have_an_account" />
                 </LinearLayout>
 
