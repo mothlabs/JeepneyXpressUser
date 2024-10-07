@@ -103,7 +103,7 @@
                         android:inputType="text"
                         android:padding="6dp"
                         android:textSize="20sp"
-                        tools:ignore="TouchTargetSizeCheck">
+                        tools:ignore="TouchTargetSizeCheck"/>
                 </LinearLayout>
 
                 <LinearLayout
