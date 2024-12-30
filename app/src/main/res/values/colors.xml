@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="accent">#3D245D</color>
+    <color name="primary">#F3F3F3</color>
+    <color name="secondary">#E4E4E4</color>
+    <color name="text">#0C0C0C</color>
+    <!--
+        TEXT SHOULD BE OF 80% GRADIENT ALL THE TIME
+    -->
+</resources>
