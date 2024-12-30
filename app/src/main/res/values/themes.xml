@@ -1,9 +1,10 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Base.Theme.FinanceTrackerApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.JeepneyXpress" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name = "android:fontFamily"> @font/montserrat_regular </item>
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.FinanceTrackerApp" parent="Base.Theme.FinanceTrackerApp" />
+    <style name="Theme.FinanceTrackerApp" parent="Base.Theme.JeepneyXpress" />
 </resources>
