@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="accent">#3D245D</color>
+    <color name="button_color">#4B2C72</color>
     <color name="primary">#F3F3F3</color>
     <color name="secondary">#E4E4E4</color>
     <color name="text">#0C0C0C</color>
