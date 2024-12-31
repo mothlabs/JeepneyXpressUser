@@ -3,4 +3,5 @@
     <string name="app_description">Commuting Made Easy</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
+    <string name="email">Email</string>
 </resources>
