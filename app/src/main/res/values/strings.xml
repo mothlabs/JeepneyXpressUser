@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">JeepneyXpress</string>
+    <string name="app_description">Commuting Made Easy</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
 </resources>
