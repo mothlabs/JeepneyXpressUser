@@ -8,4 +8,6 @@
     <string name="forgot_password">Forgot Password?</string>
     <string name="no_account">"Don't have an account?"</string>
     <string name="login_with">Login with</string>
+    <string name="google_login_logo">Google Login Logo</string>
+    <string name="facebook_login_logo">Facebook Login Logo</string>
 </resources>

@@ -58,10 +58,11 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/linearLayout2">
+
                     <ImageView
                         android:id="@+id/imageView2"
                         android:layout_width="0dp"
-                        android:layout_height="220dp"
+                        android:layout_height="200dp"
                         android:layout_weight="1"
                         android:adjustViewBounds="true"
                         android:maxHeight="200dp"
@@ -125,12 +126,14 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:autofillHints=""
                         android:background="@drawable/textbox"
                         android:ems="16"
-                        android:textAlignment="center"
                         android:hint="@string/email"
                         android:inputType="textEmailAddress"
-                        android:padding="8dp" />
+                        android:padding="8dp"
+                        android:textAlignment="center"
+                        tools:ignore="TouchTargetSizeCheck" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -138,6 +141,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
+                    android:autofillHints="Password"
+                    android:importantForAutofill="no"
                     android:orientation="horizontal"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -153,14 +158,15 @@
                         android:hint="@string/password"
                         android:inputType="textPassword"
                         android:padding="8dp"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        tools:ignore="TouchTargetSizeCheck" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/linearLayout8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="12dp"
                     android:orientation="horizontal"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -214,6 +220,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/linearLayout10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
@@ -229,6 +236,37 @@
                         android:layout_weight="1"
                         android:text="@string/login_with"
                         android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="32dp"
+                        android:layout_weight="1"
+                        android:background="null"
+                        android:contentDescription="@string/google_login_logo"
+                        app:srcCompat="@drawable/google_icon" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="null"
+                        android:contentDescription="@string/facebook_login_logo"
+                        app:srcCompat="@drawable/facebook_icon" />
+
                 </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
