@@ -20,5 +20,16 @@ public class LoginActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        /*
+        Button loginButton = (Button)findViewById(R.id.loginButton);
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void OnClick(View view) {
+                startActivity(new Intent())
+            }
+        });
+         */
+
     }
 }
